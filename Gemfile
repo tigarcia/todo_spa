@@ -31,12 +31,12 @@ gem 'turbolinks'
 gem 'handlebars_assets'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
+gem 'dotenv-rails'
+gem 'unicorn-rails'
 
 group :development, :test do
   gem 'pry'
   gem 'rspec-rails'
-  gem 'unicorn-rails'
-  gem 'dotenv-rails'
 end
 
 group :doc do
